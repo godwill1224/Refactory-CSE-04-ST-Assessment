@@ -1,0 +1,105 @@
+body {
+    background-color: #fff;
+    color: #808080;
+    margin: 0;
+    padding: 0;
+    font-family: Agency FB;
+}
+
+.header {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.header img {
+    width: 100%;
+}
+
+.content {
+    margin: 0 40px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px dashed #cc0000;
+    padding: 0;
+}
+
+.form-col {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px dashed #cc0000;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+.mid-col {
+    padding: 10px 20px;
+}
+
+.form-col h1 {
+    font-weight: 800;
+    font-size: 24px;
+    color: #cc0000;
+    text-transform: uppercase;
+}
+
+.form-col:last-child {
+    border-right: none;
+    padding-right: 10px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-input input, .form-input select {
+    padding: 10px;
+    text-align: center;
+}
+
+.form-input span {
+    color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 12px;
+    display: none;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-footer .submit-message {
+    width: 55%;
+}
+
+.form-footer .submit-message .success-msg {
+    padding: 8px;
+    border: 1px solid #3ee37b;
+    color: #3ee37b;
+    display: none;
+}
+
+.form-footer .form-button button {
+    border: none;
+    background-color: #cc0000;
+    color: #fff;
+    padding: 10px;
+    min-width: 480px;
+    text-transform: uppercase;
+    font-family: Agency FB;
+}
